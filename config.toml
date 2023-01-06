@@ -11,7 +11,7 @@ build-mindetach-module = true
 [YouTube]
 enabled = true                                                        # add 'enabled = false' key to entries to not build them
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "debugging"                                        # whitespace seperated list of patches to exclude
+excluded-patches = "debugging microg-support always-autorepeat comments debugging disable-auto-captions disable-auto-player-popup-panels disable-startup-shorts-player hide-autoplay-button hide-captions-button hide-create-button hide-shorts-button hide-time-and-seekbar remove-player-button-background tablet-mini-player"                                        # whitespace seperated list of patches to exclude
 included-patches = ""                                            # whitespace seperated list of patches to include
 version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
